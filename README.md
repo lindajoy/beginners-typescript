@@ -1,6 +1,8 @@
-![Become the TypeScript wizard at your compant](./og-image.png)
+<a href="https://totaltypescript.com"><img src="./og-image.png" /></a>
 
 ## Quickstart
+
+Clone this repo or [open in Gitpod](https://gitpod.io/#https://github.com/total-typescript/beginners-typescript).
 
 ```sh
 # Installs all dependencies
@@ -8,7 +10,14 @@ yarn install
 
 # Starts the first exercise
 yarn exercise 01
+
+# Runs linting and tests on the solution
+yarn solution 01
 ```
+
+## Video Walkthrough
+
+I walked through the first few exercises on [VSCode's live stream](https://www.youtube.com/watch?v=p6dO9u0M7MQ)! The plan for these exercises is to develop them into a full workshop, and then bundle them into the full video course - [Total TypeScript](https://totaltypescript.com).
 
 ## How to take the course
 
@@ -29,7 +38,7 @@ This course encourages **active, exploratory learning**. In the video, I'll expl
 
 You'll know if you've succeeded because the tests will pass.
 
-**If you succeeed**, or **if you get stuck**, unpause the video and check out the `*.solution.ts`. You can see if your solution is better or worse than mine!
+**If you succeed**, or **if you get stuck**, unpause the video and check out the `*.solution.ts`. You can see if your solution is better or worse than mine!
 
 You can run `yarn solution 01` to run the tests and typechecking on the solution.
 
